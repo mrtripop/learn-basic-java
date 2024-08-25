@@ -4,6 +4,11 @@ import challenges.javaAnnotation.services.EmployeeService;
 
 public class JavaAnnotationTest {
 
+    /*
+     * Problem from Hackerrank:
+     * https://www.hackerrank.com/challenges/java-annotations/problem
+     */
+
     private EmployeeService employeeService = new EmployeeService();
 
     public JavaAnnotationTest() {
