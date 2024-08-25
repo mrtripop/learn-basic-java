@@ -2,6 +2,7 @@ import challenges.birthdaycakecandles.BirthdayCakeCandles;
 import challenges.birthdaycakecandles.BirthdayCakeCandlesTest;
 import challenges.calendar.BasicCalendarTest;
 import challenges.fizzbuzz.FizzBuzzTest;
+import challenges.javaAnnotation.JavaAnnotationTest;
 import challenges.javaSHA256.JavaSHA256Test;
 import challenges.javaStringCompare.JavaStringCompare;
 import challenges.javaStringCompare.JavaStringCompareTest;
@@ -58,6 +59,14 @@ public class Hello {
 
         JavaSHA256Test javaSHA256Test = new JavaSHA256Test();
         javaSHA256Test.testCryptographicHash_hashHelloWorld();
+
+        JavaAnnotationTest javaAnnotationTest = new JavaAnnotationTest();
+        javaAnnotationTest.testJavaAnnotation_juniorBudgetEqualTo50();
+        javaAnnotationTest.testJavaAnnotation_juniorBudgetLowerThan50();
+        javaAnnotationTest.testJavaAnnotation_juniorBudgetHigherThan50();
+        javaAnnotationTest.testJavaAnnotation_seniorBudgetEqualTo100();
+        javaAnnotationTest.testJavaAnnotation_seniorBudgetLowerThan100();
+        javaAnnotationTest.testJavaAnnotation_seniorBudgetHigherThan100();
     }
 
 }
