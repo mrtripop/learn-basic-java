@@ -1,10 +1,10 @@
-import challenges.BirthdayCakeCandles;
-import challenges.BirthdayCakeCandlesTest;
-import challenges.JavaSHA256Test;
-import challenges.JavaStringCompare;
-import challenges.JavaStringCompareTest;
+import challenges.birthdaycakecandles.BirthdayCakeCandles;
+import challenges.birthdaycakecandles.BirthdayCakeCandlesTest;
 import challenges.calendar.BasicCalendarTest;
 import challenges.fizzbuzz.FizzBuzzTest;
+import challenges.javaSHA256.JavaSHA256Test;
+import challenges.javaStringCompare.JavaStringCompare;
+import challenges.javaStringCompare.JavaStringCompareTest;
 import challenges.palindrome.PalindromeTest;
 import challenges.twosum.TwoSumTest;
 

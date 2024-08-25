@@ -1,4 +1,4 @@
-package challenges;
+package challenges.javaStringCompare;
 
 public class JavaStringCompareTest {
 

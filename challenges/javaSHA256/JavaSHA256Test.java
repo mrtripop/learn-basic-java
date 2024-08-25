@@ -1,4 +1,4 @@
-package challenges;
+package challenges.javaSHA256;
 
 public class JavaSHA256Test {
 

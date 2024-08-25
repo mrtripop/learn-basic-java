@@ -1,4 +1,4 @@
-package challenges;
+package challenges.birthdaycakecandles;
 
 import java.util.List;
 
