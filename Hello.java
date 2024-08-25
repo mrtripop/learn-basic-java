@@ -8,6 +8,7 @@ import challenges.javaStringCompare.JavaStringCompare;
 import challenges.javaStringCompare.JavaStringCompareTest;
 import challenges.palindrome.PalindromeTest;
 import challenges.twosum.TwoSumTest;
+import challenges.varargs.VarargsTest;
 
 public class Hello {
 
@@ -67,6 +68,9 @@ public class Hello {
         javaAnnotationTest.testJavaAnnotation_seniorBudgetEqualTo100();
         javaAnnotationTest.testJavaAnnotation_seniorBudgetLowerThan100();
         javaAnnotationTest.testJavaAnnotation_seniorBudgetHigherThan100();
+
+        VarargsTest varargsTest = new VarargsTest();
+        varargsTest.testVarargs();
     }
 
 }
